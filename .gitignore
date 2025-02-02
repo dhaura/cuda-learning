@@ -1,6 +1,62 @@
-*.i
-*.ii
-*.gpu
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.la
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# CUDA binary files
+*.cu.cpp
 *.ptx
 *.cubin
 *.fatbin
+
+# Executables
+*.exe
+*.out
+*.app
+*.run
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Build directories
+/build/
+/bin/
+/obj/
+/dist/
+/CMakeFiles/
+/CMakeCache.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Make and CMake-generated files
+Makefile
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.~*
+
+# CUDA Nsight profiling reports
+*.qdstrm
+*.nsys-rep

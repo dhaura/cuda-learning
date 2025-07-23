@@ -10,6 +10,7 @@ void check_error(cudaError_t err) {
     }
 }
 
+// Kernel function to add two vectors.
 __global__ void vec_add(const float *a, const float *b, float *c, int n) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx < n) {
